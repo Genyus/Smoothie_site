@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 80px;
+  min-height: 300px;
+  margin-bottom: 0;
+  background-image:url('images/backgroundpic.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+.jumbotron h1 {
+  font-family: 'arial', cursive;
+  color: white;
+  margin-bottom: 1em;
+}
+
+
+blockquote {
+  border-left: 0;
+}
+
+
+#whyjuice {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+
+#recipes {
+	font-family: 'arial', cursive;
+	background-color: rgb(255, 162, 128);
+	color: #ffa280;
+  	padding-bottom: 40px;
+
+}
+
+
+
+#mission {
+  margin-bottom: 1.5em;
+}
+
+#social-buttons {
+  margin-bottom: 50px;
+}
+
+.btn-twitter {
+  background-color: rgb(51, 214, 255);
+  color: white;
+}
+
+.btn-facebook {
+  background-color: rgb(128, 159, 255);
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: rgb(255, 77, 77);
+  color: white;
+}
