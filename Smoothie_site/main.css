@@ -1,3 +1,11 @@
+body { 
+    background-image: url('images/backgroundpic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.
 .jumbotron {
   padding-top: 80px;
   min-height: 300px;
@@ -5,13 +13,19 @@
   background-image:url('images/backgroundpic.jpg');
   background-size: cover;
   background-attachment: fixed;
-
-
 }
-.jumbotron h1 {
-  font-family: 'arial', cursive;
-  color: white;
-  margin-bottom: 1em;
+
+#page-wrap{
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.h1 {
+  font-family: 'josefin Slab', serif;
+  margin-bottom: 1px;
+  text-align: center;
 }
 
 
@@ -19,6 +33,13 @@ blockquote {
   border-left: 0;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+body {
+  font-family: 'Josefin Slab', serif;
+}
 
 #whyjuice {
   background-color: rgba(32, 35, 41, 0.9);
@@ -34,7 +55,14 @@ blockquote {
 
 }
 
-
+.navbar {
+  color: white;
+  background-color: #ffb732;
+  text-decoration-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
 
 #mission {
   margin-bottom: 1.5em;
